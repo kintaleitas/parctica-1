@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+    <head>
+        <title>INICIAR SESION</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+        <style>
+            body{
+                
+            }
+            h1{
+               font-size: 20px;
+                color: green;
+            }
+            P{
+                font-size: 18PX;
+            }
+            
+            
+        </style>
+         <h1>INICIO DE SESION</h1>
+          <p>Introduce tu nombre y contraseña.</p>
+         <form action="emailList" method="post">        
+        <input type="hidden" name="action" value="add">  
+       
+        <label class="pad_top">USUARIO:</label>        
+        <input type="text" name="firstName" required><br>        
+        <label class="pad_top">CONTRASEÑA:</label>        
+        <input type="text" name="lastName" required><br>        
+
+        <label>&nbsp;</label>        
+        <input type="submit" value="INICIAR SESION" class="margin_left">       
+
+  </form>
+          
+          
